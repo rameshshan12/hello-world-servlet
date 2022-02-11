@@ -58,10 +58,10 @@ stages {
 }
 post {
         success {
-            mail to:"raknas000@gmail.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Build success"
+            mail to:"ramesh.parm12gmail.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Build success"
         }
         failure {
-            mail to:"raknas000@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Build failed"
+            mail to:"ramesh.parm12@gmail.com", subject:"FAILURE: ${currentBuild.fullDisplayName}", body: "Build failed"
         }
     }       
 }
